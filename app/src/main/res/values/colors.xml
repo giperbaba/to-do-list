@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="dark">#F2333333</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorChecked">#FF4081</color> <!-- Цвет при нажатии -->
-    <color name="colorUnchecked">#CCCCCC</color> <!-- Цвет по умолчанию -->
+    <color name="colorChecked">#FF4081</color>
+    <color name="colorUnchecked">#CCCCCC</color>
 </resources>

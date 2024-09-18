@@ -9,10 +9,13 @@
 
     <TextView
         android:id="@+id/nameApp"
+        android:fontFamily="@font/playfairdisplay"
+        android:textColor="@color/dark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
         android:layout_margin="16dp"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -77,8 +80,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         app:icon="@drawable/save"
-        app:layout_constraintBottom_toTopOf="@+id/upload"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/upload">
 
     </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
 
