@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">your to-do list</string>
+    <string name="add_new_task">add new task</string>
+    <string name="input_field">description</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload">upload</string>
+    <string name="save">save</string>
+</resources>
